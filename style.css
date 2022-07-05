@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/* Reuseable Styles  */
+.flexible_sec{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p{
+    font-weight: 400;
+    line-height: 1.8em;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.btn,.hero_btn{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background:rgb(245, 129, 5);
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    letter-spacing: 0.3px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+.btn:hover,.hero_btn:hover{
+    letter-spacing: 1.5px;
+}
+/* header section  Styles*/
+#header{
+    padding:0 20px;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(img/donation10.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+#header .header_section{
+    width: 55%;
+}
