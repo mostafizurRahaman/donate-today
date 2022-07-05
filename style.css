@@ -5,6 +5,7 @@
 body{
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 0.5px;
+    
 }
 
 /* Reuseable Styles  */
@@ -16,6 +17,7 @@ h1{
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
+    line-height:1.3em;
 }
 
 p{
