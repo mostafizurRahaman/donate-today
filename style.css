@@ -43,6 +43,7 @@ a{
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
     
 }
 .little_description{
@@ -333,7 +334,7 @@ margin-bottom: 40px;
  -moz-border-radius: 25px;
  -ms-border-radius: 25px;
  -o-border-radius: 25px;
- margin-top: 20px;
+ margin: 20px 0px 60px;
 }
 .bottom_section input[type="email"] {
 	display: block;
@@ -346,6 +347,7 @@ margin-bottom: 40px;
 	padding: 0px 10px;
 	border-bottom-left-radius: 11px;
 	border-top-left-radius: 11px;
+    
 }
 
 .bottom_section input[type="submit"] {
@@ -358,4 +360,21 @@ margin-bottom: 40px;
 	background: #e81818;
 	border-top-right-radius: 11px;
 	border-bottom-right-radius: 11px;
+    cursor: pointer;
+}
+/* Footer section start */
+#footer{
+    background: #0B0D17;
+    padding:40px 20px
+}
+#footer h2{
+   color: #FF5959;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;   
+}
+#footer p{
+   color: #fff; 
+   text-align: center;
+   text-transform: capitalize;
 }
