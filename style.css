@@ -124,7 +124,7 @@ a{
 .active_box{
     background: rgba(32, 250, 3, 0.384)!important;
     border:2px solid #f00;
-    box-shadow: 8px 3px 24px #628253;
+    box-shadow: 8px 3px 22px #ff000052;
 }
 .active_box h3{
     color: #f00;
@@ -177,7 +177,7 @@ input::-webkit-inner-spin-button {
     width: 280px;
     height: 300px;
     background: rgba(255, 89, 89, 0.1);
-    padding: 20px 15px;
+    padding: 25px 15px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
