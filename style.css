@@ -128,10 +128,15 @@ a{
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 }
+.amount_box:hover ,.box:hover{
+    background: rgba(32, 250, 3, 0.384)!important;
+    border:2px solid #f00;
+    box-shadow: -1px 7px 40px gray;
+}
 .active_box{
     background: rgba(32, 250, 3, 0.384)!important;
     border:2px solid #f00;
-    box-shadow: 8px 3px 22px #ff000052;
+    box-shadow: -1px 7px 40px gray;
 }
 .active_box h3{
     color: #f00;
